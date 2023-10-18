@@ -9,29 +9,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <head>
+    <header class="header">
+        <div class="navbar">
+            <img class="logo" src="images/logo.svg" alt="">
+            <div class="hamburger">
+                <img src="./images/icon-hamburger.svg" alt="">
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="">about</a></li>
+                <li class="nav-item"><a href="">careers</a></li>
+                <li class="nav-item"><a href="">events</a></li>
+                <li class="nav-item"><a href="">products</a></li>
+                <li class="nav-item"><a href="">support</a></li>
+            </ul>
+            <div class="close-nav">
+                <img src="./images/icon-close.svg" alt="">
+            </div>
+        </div>
         <div class="hero_section">
-            <nav class="nav">
-                <img class="logo" src="images/logo.svg" alt="">
-                <div class="hamburger">
-                    <img src="./images/icon-hamburger.svg" alt="">
-                </div>
-                <ul class="nav-links">
-                    <li class="nav-item"><a href="">about</a></li>
-                    <li class="nav-item"><a href="">careers</a></li>
-                    <li class="nav-item"><a href="">events</a></li>
-                    <li class="nav-item"><a href="">products</a></li>
-                    <li class="nav-item"><a href="">support</a></li>
-                </ul>
-                <div class="close-nav">
-                    <img src="./images/icon-close.svg" alt="">
-                </div>
-            </nav>
             <p class="hero_text">
                 immersive experiences that deliver
             </p>
         </div>
-    </head> 
+    </header> 
     <section class="next_section">
         <div class="inner_a"></div>
         <div class="inner_b">
@@ -55,109 +55,74 @@
         </div>
 
         <div class="image_section_grid">
-            <div class="grid_img1">
+            <div class="grid_img img1">
                 
-                <p class="grid_t1">deep earth</p>
+                <p class="grid_text">deep earth</p>
             </div>
             
-            <div class="grid_img2">
+            <div class="grid_img img2">
                 
-                <p class="grid_t2">night arcade</p>
+                <p class="grid_text">night arcade</p>
             </div>
 
-            <div class="grid_img3">
-                <p class="grid_t3">soccer team vr</p>
+            <div class="grid_img img3">
+                <p class="grid_text">soccer team vr</p>
             </div>
 
-            <div class="grid_img4">
-                <p class="grid_t4">the grid</p>
+            <div class="grid_img img4">
+                <p class="grid_text text">the grid</p>
             </div>
 
-            <div class="grid_img5">
-                <p class="grid_t5">from up above vr</p>
+            <div class="grid_img img5">
+                <p class="grid_text">from up above vr</p>
             </div>
 
-            <div class="grid_img6">
-                <p class="grid_t6">pocket boreals</p>
+            <div class="grid_img img6">
+                <p class="grid_text">pocket boreals</p>
             </div>
 
-            <div class="grid_img7">
-                <p class="grid_t7">the curiosity</p>
+            <div class="grid_img img7">
+                <p class="grid_text">the curiosity</p>
             </div>
 
-            <div class="grid_img8">
-                <p class="grid_t8">make it fisheye</p>
+            <div class="grid_img img8">
+                <p class="grid_text">make it fisheye</p>
             </div>
+        </div>
+        <div class="mob_btn ">
+            <button class="mob_btn_inner"><a href="">see all</a></button>
+
         </div>
     </section>
 
 
-    <section class="mobile_image_section">
-        <div class="mobile_image_section_inner_a">
-            <h2 class="mobile_image_section_head">
-                our creations
-            </h2>
-           
-        </div>
-
-        <div class="mobile_image_section_grid">
-            <div class="mobile_grid_img1">
-                
-                <p class="mobile_grid_t1">deep earth</p>
-            </div>
-            
-            <div class="mobile_grid_img2">
-                
-                <p class="mobile_grid_t2">night arcade</p>
-            </div>
-
-            <div class="mobile_grid_img3">
-                <p class="mobile_grid_t3">soccer team vr</p>
-            </div>
-
-            <div class="mobile_grid_img4">
-                <p class="mobile_grid_t4">the grid</p>
-            </div>
-
-            <div class="mobile_grid_img5">
-                <p class="mobile_grid_t5">from up above vr</p>
-            </div>
-
-            <div class="mobile_grid_img6">
-                <p class="mobile_grid_t6">pocket boreals</p>
-            </div>
-
-            <div class="mobile_grid_img7">
-                <p class="mobile_grid_t7">the curiosity</p>
-            </div>
-
-            <div class="mobile_grid_img8">
-                <p class="mobile_grid_t8">make it fisheye</p>
-            </div>
-        </div>
-        <button class="mobile_image_section_button"><a href="">see all</a></button>
-    </section>
+    
 
 
     <section class="footer">
-        <img src="images/logo.svg" alt="" class="footer_logo">
-        <ul class="footer_nav_links">
-            <li class="footer-nav-item"><a href="">about</a></li>
-            <li class="footer-nav-item"><a href="">careers</a></li>
-            <li class="footer-nav-item"><a href="">events</a></li>
-            <li class="footer-nav-item"><a href="">products</a></li>
-            <li class="footer-nav-item"><a href="">support</a></li>
-        </ul>
-        <div class="icon_links">
-            <a href=""><img src="images/icon-facebook.svg" alt=""></a>
-            <a href=""><img src="images/icon-twitter.svg" alt=""></a>
-            <a href=""><img src="images/icon-pinterest.svg" alt=""></a>
-            <a href=""><img src="images/icon-instagram.svg" alt=""></a>
-
+        <div class="footer_a">
+            <img src="images/logo.svg" alt="" class="footer_logo">
+            <ul class="footer_nav_links">
+                <li class="footer-nav-item"><a href="">about</a></li>
+                <li class="footer-nav-item"><a href="">careers</a></li>
+                <li class="footer-nav-item"><a href="">events</a></li>
+                <li class="footer-nav-item"><a href="">products</a></li>
+                <li class="footer-nav-item"><a href="">support</a></li>
+            </ul>
         </div>
-        <p class="footer_text">
-            2021 Loopstudios. All rights reserved.
-        </p>
+
+        <div class="footer_b">
+            <div class="icon_links">
+                <a href=""><img src="images/icon-facebook.svg" alt=""></a>
+                <a href=""><img src="images/icon-twitter.svg" alt=""></a>
+                <a href=""><img src="images/icon-pinterest.svg" alt=""></a>
+                <a href=""><img src="images/icon-instagram.svg" alt=""></a>
+    
+            </div>
+            <p class="footer_text">
+                2021 Loopstudios. All rights reserved.
+            </p>
+        </div>
     </section>
    
 

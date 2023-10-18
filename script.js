@@ -1,8 +1,8 @@
 const closeNav = document.querySelector('.close-nav')
 const hamburger = document.querySelector('.hamburger')
 const navLinks = document.querySelector('.nav-links')
+const header = document.querySelector('.header')
 const logo = document.querySelector('.logo')
-const nav = document.querySelector('.nav')
 
 hamburger.addEventListener('click', openNav)
 closeNav.addEventListener('click', closeNavBar)
@@ -12,7 +12,7 @@ function openNav(){
     hamburger.classList.add('close-hamburger')
     navLinks.classList.add('open-mobile-nav')
     logo.classList.add('open-logo-nav-link')
-    nav.classList.add('nav_out')
+    header.classList.add('.padding_out')
 }
 
 function closeNavBar(){
@@ -20,5 +20,5 @@ function closeNavBar(){
     closeNav.classList.remove('open-nav')
     navLinks.classList.remove('open-mobile-nav')
     logo.classList.remove('open-logo-nav-link')
-    nav.classList.remove('nav_out')
+    header.classList.remove('.padding_out') 
 }
