@@ -295,7 +295,7 @@ header .hero_section .hero_text{
     
     position: relative;
     right: 10%;
-    top: 147px;
+    top: 147px !important;
    
 }
 
