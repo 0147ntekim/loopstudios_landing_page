@@ -317,6 +317,11 @@ header .hero_section .hero_text{
     margin-top: 8%;
 }
 
+@media (max-width:1440px){
+    .next_section .inner_b{
+        top: 185px;
+    }
+}
 @media (max-width:1200px){
     .next_section .inner_b{
         max-height: 40vh;
